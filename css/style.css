@@ -4,7 +4,7 @@
 /* ============ css variables ============= */
 :root {
   /* === font family === */
-  --oswald-font: "Urbanist", sans-serif;
+  --urbanist-font: "Urbanist", sans-serif;
   /* === font family === */
   /* === font weight === */
   --light-weight: 300;
@@ -16,10 +16,12 @@
   /* === font weight === */
   /* === colors === */
   --white-clr: #fff;
-  --secondary-text-clr: #dddddd;
-  --primary-clr: #ff4655;
-  --primary-bg-clr: #121212;
+  --primary-text-clr: #192252;
+  --primary-bg-clr: #201353;
+  --primary-btn-bg-clr: #6245d5;
   --secondary-bg-clr: #191919;
+  --transparent-clr: transparent;
+
   /* === colors === */
   /* === method === */
   --transition: all 0.3s linear;
@@ -59,9 +61,159 @@ div {
 }
 img {
   vertical-align: middle;
+  width: 100%;
 }
 .container {
   max-width: 1240px;
   margin: 0 auto;
 }
+body {
+  font-family: var(--urbanist-font);
+  overflow: hidden;
+}
+.common_btn {
+  padding: 16px 40px;
+  color: var(--white-clr);
+  background-color: var(--primary-btn-bg-clr);
+  font-size: 18px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: 1px solid var(--transparent-clr);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.common_btn:hover {
+  color: var(--primary-text-clr);
+  background-color: var(--white-clr);
+  border-color: var(--white-clr);
+}
 /* ============= common css end here ================ */
+/* =========== navbar css start here ============== */
+nav {
+  width: 100%;
+  padding: 23px 0;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 99999999999;
+}
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand_logo {
+  width: 148px;
+  height: 34px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+.nav_menu_wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 80px;
+}
+.nav_link {
+  color: #606d93;
+  font-size: 18px;
+  font-weight: var(--medium-weight);
+  line-height: normal;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.nav_link:hover {
+  color: var(--primary-text-clr);
+}
+/* =========== navbar css end here ============== */
+
+/* ============== banner section css start here =============== */
+#banner {
+  padding: 215px 0 660px;
+  width: 100%;
+  position: relative;
+}
+.banner_shape_wrapper {
+  position: relative;
+  height: 100%;
+}
+.banner_shape_1 {
+  width: 539px;
+  height: 539px;
+  border-radius: 50%;
+  background-color: #6245d5;
+  filter: blur(247px);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: -106px;
+  right: -129px;
+}
+.banner_shape_2 {
+  width: 548px;
+  height: 548px;
+  border-radius: 50%;
+  background-color: #fc8b5f;
+  filter: blur(247px);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 199px;
+  right: 169px;
+}
+.banner_shape_3 {
+  width: 349px;
+  height: 349px;
+  border-radius: 50%;
+  background-color: #6245D5;
+  filter: blur(247px);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 747px;
+  left: -119px;
+}
+/* ============== banner section css end here =============== */
+/* ============== section css start here =============== */
+
+/* ============== section css end here =============== */
+/* ============== section css start here =============== */
+
+/* ============== section css end here =============== */
+/* ============== section css start here =============== */
+
+/* ============== section css end here =============== */
+/* ============== section css start here =============== */
+
+/* ============== section css end here =============== */
+/* ============== section css start here =============== */
+
+/* ============== section css end here =============== */
+/* ============== section css start here =============== */
+
+/* ============== section css end here =============== */
+/* ============== section css start here =============== */
+
+/* ============== section css end here =============== */
+/* ============== section css start here =============== */
+
+/* ============== section css end here =============== */
