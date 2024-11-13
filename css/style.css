@@ -706,11 +706,18 @@ nav {
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
   cursor: pointer;
+  background-color: #fc9770;
+  color: var(--white-clr);
+}
+.planing_package_type_wrapper span:nth-child(1) {
+  background-color: var(--white-clr);
+  color: #848fac;
 }
 .planing_package_type_wrapper span:hover {
   background-color: #fc9770;
   color: var(--white-clr);
 }
+
 .planing_details_list_wrapper {
   display: flex;
   flex-direction: column;
@@ -735,9 +742,174 @@ nav {
   -o-transform: translateY(-50%);
 }
 /* ============== planing section css end here =============== */
-/* ============== section css start here =============== */
-
-/* ============== section css end here =============== */
+/* ============== newsletter section css start here =============== */
+#newsletter {
+  padding: 100px 0;
+  background-color: var(--primary-bg-clr);
+}
+.newsletter_section_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+}
+.newsletter_section_heading {
+  width: 448px;
+  color: var(--white-clr);
+  font-size: 52px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+  margin: 24px 0;
+}
+.newsletter_sub_heading {
+  width: 434px;
+  color: rgba(255, 255, 255, 0.64);
+  font-size: 18px;
+  font-weight: var(--medium-weight);
+  line-height: 150%;
+  margin-bottom: 64px;
+}
+.newsletter_content_icon {
+  width: 46px;
+  height: 38px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 48px;
+}
+.newsletter_details {
+  width: 489px;
+  color: var(--white-clr);
+  font-size: 20px;
+  font-weight: var(--medium-weight);
+  line-height: 150%;
+  margin-bottom: 46px;
+}
+.newsletter_name {
+  color: rgba(255, 255, 255, 0.64);
+  font-size: 20px;
+  font-weight: var(--medium-weight);
+  line-height: 150%;
+  margin-bottom: 48px;
+}
+.newsletter_shape_wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+.newsletter_shape {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  background-color: #d9d9d9;
+}
+.newsletter_shape:nth-child(2) {
+  opacity: 0.75;
+}
+.newsletter_shape:nth-child(3) {
+  opacity: 0.5;
+}
+.newsletter_shape:nth-child(4) {
+  opacity: 0.25;
+}
+.newsletter_shape:nth-child(5) {
+  background-color: var(--transparent-clr);
+  text-align: center;
+  line-height: 64px;
+  font-size: 20px;
+  color: var(--white-clr);
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+}
+.newsletter_form_wrapper {
+  width: 600px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.12);
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  padding: 64px 80px;
+}
+.newsletter_brand_logo {
+  width: 68px;
+  height: 58px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.newsletter_form_logo {
+  color: var(--white-clr);
+  font-size: 24px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+  margin-bottom: 48px;
+  text-align: center;
+}
+.newsletter_form_label {
+  color: var(--white-clr);
+  font-size: 18px;
+  font-weight: var(--semi-bold-weight);
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+.newsletter_form_input {
+  width: 100%;
+  height: 52px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin-bottom: 24px;
+  padding: 14px 24px;
+  font-size: 18px;
+}
+.newsletter_form_input:nth-child(4) {
+  height: 80px;
+}
+.newsletter_form_input::placeholder {
+  color: #848fac;
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: 150%;
+}
+.newsletter_form_btn {
+  width: 100%;
+  margin-top: 16px;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background: #fc9770;
+  border: unset;
+  color: var(--white-clr);
+  font-size: 18px;
+  font-weight: var(--bold-weight);
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+.newsletter_trial {
+  text-align: end;
+  color: var(--white-clr);
+  font-size: 14px;
+  font-weight: var(--semi-bold-weight);
+  line-height: 150%;
+}
+.newsletter_trial span{
+  color: rgba(255, 255, 255, 0.64);
+  font-size: 14px;
+  font-weight: var(--regular-weight);
+  line-height: 150%;
+  margin-right: 8px;
+}
+/* ============== newsletter section css end here =============== */
 /* ============== section css start here =============== */
 
 /* ============== section css end here =============== */
