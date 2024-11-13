@@ -521,6 +521,7 @@ nav {
 .planing_package_item_wrapper {
   display: flex;
   flex-direction: column;
+  gap: 24px;
 }
 .planing_package_item {
   width: 515px;
@@ -647,17 +648,91 @@ nav {
   color: rgba(255, 255, 255, 0.64);
 }
 .planing_package_item:hover::before {
+  display: none;
+}
+.planing_package_item:hover::after {
   content: "";
   position: absolute;
-  width: 19px;
-  height: 19px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  border: 5px solid #fff;
+  border: 8px solid #fff;
   transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.planing_package_details_wrapper {
+  width: 525px;
+  border-radius: 16px;
+  background-color: #f7f7f7;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  padding: 48px 48px 68px 48px;
+}
+.planing_package_type_wrapper {
+  color: #848fac;
+  font-size: 16px;
+  font-weight: var(--semi-bold-weight);
+  line-height: normal;
+  background-color: var(--white-clr);
+  border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+  display: inline-block;
+  padding: 4px;
+  margin-bottom: 53px;
+}
+.planing_package_type_wrapper span {
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+  cursor: pointer;
+}
+.planing_package_type_wrapper span:hover {
+  background-color: #fc9770;
+  color: var(--white-clr);
+}
+.planing_details_list_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+.planing_details_list_wrapper li {
+  color: var(--primary-text-clr);
+  font-size: 18px;
+  font-weight: var(--medium-weight);
+  line-height: normal;
+  position: relative;
+}
+.planing_details_list_wrapper li i {
+  color: #6245d5;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
 }
 /* ============== planing section css end here =============== */
 /* ============== section css start here =============== */
