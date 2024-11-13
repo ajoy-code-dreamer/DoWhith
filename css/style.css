@@ -69,7 +69,7 @@ img {
 }
 body {
   font-family: var(--urbanist-font);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .common_btn {
   padding: 16px 40px;
@@ -142,7 +142,7 @@ nav {
 
 /* ============== banner section css start here =============== */
 #banner {
-  padding: 215px 0 660px;
+  padding: 215px 0 0px;
   width: 100%;
   position: relative;
 }
@@ -228,11 +228,44 @@ nav {
   height: 882px;
   border-radius: 24px;
   background-color: #d9d9d9;
+  margin-bottom: -415px;
 }
 /* ============== banner section css end here =============== */
-/* ============== section css start here =============== */
-
-/* ============== section css end here =============== */
+/* ============== counter section css start here =============== */
+#counter {
+  padding: 522px 0 64px;
+  background-color: var(--primary-bg-clr);
+}
+.counter_item_wrapper {
+  padding: 48px 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 24px;
+  background-color: rgba(255, 255, 255, 0.08);
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+.counter_item {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.counter_name {
+  color: var(--white-clr);
+  font-size: 48px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+}
+.counter_item_name {
+  color: rgba(255, 255, 255, 0.64);
+  font-size: 20px;
+  font-weight: var(--medium-weight);
+  line-height: normal;
+}
+/* ============== counter section css end here =============== */
 /* ============== section css start here =============== */
 
 /* ============== section css end here =============== */
