@@ -460,16 +460,38 @@ nav {
   font-weight: var(--semi-bold-weight);
   line-height: normal;
 }
-.play_receive_list_wrapper li i{
+.play_receive_list_wrapper li i {
   font-size: 20px;
   color: #219653;
   line-height: 20px;
   padding-right: 29px;
 }
 /* ============== play_receive section css end here =============== */
-/* ============== section css start here =============== */
-
-/* ============== section css end here =============== */
+/* ============== branding section css start here =============== */
+#branding {
+  padding: 40px 0 62px;
+}
+.branding_section_heading {
+  text-align: center;
+  color: #848fac;
+  font-size: 24px;
+  font-weight: var(--medium-weight);
+  line-height: 150%;
+  margin-bottom: 32px;
+}
+.branding_item_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.branding_item {
+  flex-shrink: 0;
+  color: #000;
+  font-size: 32px;
+  font-weight: var(--bold-weight);
+  line-height: 150%;
+}
+/* ============== branding section css end here =============== */
 /* ============== section css start here =============== */
 
 /* ============== section css end here =============== */
