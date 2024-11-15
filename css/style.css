@@ -252,6 +252,24 @@ nav {
   display: flex;
   align-items: center;
   column-gap: 16px;
+  position: relative;
+}
+.counter_item::after{
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 32px;
+  background-color: rgba(255, 255, 255, 0.20);
+  top: 50%;
+  right: -48px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.counter_item:last-child::after{
+  display: none;
 }
 .counter_name {
   color: var(--white-clr);
